@@ -6,7 +6,7 @@ const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 //const env = process.env.NODE_ENV || 'development';
 const env =  'development';
-
+/*
 const config = {
   "username": process.env.MYSQL_USERNAME,
   "password": process.env.MYSQL_ROOT_PASSWORD,
@@ -16,6 +16,18 @@ const config = {
   "operatorsAliases" : 0,
   "define": {
     "freezeTableName": true
+  }}
+  */
+
+  const config = {
+    "username": "root",
+    "password": "Admitt2022",
+    "database": "admitt",
+    "host": "34.176.217.167",
+    "dialect": "mysql",
+    "operatorsAliases" : 0,
+    "define": {
+      "freezeTableName": true
   }}
 const db = {};
 

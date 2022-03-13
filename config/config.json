@@ -1,10 +1,10 @@
 {
   
     "development": {
-      "username": "admitt",
-      "password": "123456",
+      "username": "root",
+      "password": "Admitt2022",
       "database": "admitt",
-      "host": "localhost",
+      "host": "34.176.217.167",
       "dialect": "mysql",
       "operatorsAliases" : 0,
       "define": {
@@ -12,17 +12,17 @@
       }
     },
     "test": {
-      "username": "admitt",
-      "password": null,
-      "database": "database_test",
-      "host": "127.0.0.1",
+      "username": "root",
+      "password": "Admitt2022",
+      "database": "admitt",
+      "host": "34.176.217.167",
       "dialect": "mysql"
     },
     "production": {
-      "username": "admitt",
-      "password": null,
-      "database": "database_production",
-      "host": "127.0.0.1",
+      "username": "root",
+      "password": "Admitt2022",
+      "database": "admitt",
+      "host": "34.176.217.167",
       "dialect": "mysql"
     }
   }

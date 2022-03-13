@@ -2,13 +2,13 @@
 const mysql = require('mysql');
 const util = require('util');
 
-console.log(process.env.MYSQL_HOST);
+
 const mysqlConnection = mysql.createConnection({
 
-    host: process.env.MYSQL_HOST,
-    user: process.env.MYSQL_USERNAME,
-    password: process.env.MYSQL_ROOT_PASSWORD,
-    database: process.env.MYSQL_DATABASE,
+    host: "34.176.217.167",
+    user: "root",
+    password: "Admitt2022",
+    database: "admitt",
     multipleStatements: true
 });
 
