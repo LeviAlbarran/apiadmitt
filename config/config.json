@@ -1,0 +1,29 @@
+{
+  
+    "development": {
+      "username": "admitt",
+      "password": "123456",
+      "database": "admitt",
+      "host": "localhost",
+      "dialect": "mysql",
+      "operatorsAliases" : 0,
+      "define": {
+        "freezeTableName": true
+      }
+    },
+    "test": {
+      "username": "admitt",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "admitt",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
+
